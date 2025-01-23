@@ -16,11 +16,6 @@ void shuffle(char names[NUM_NAMES][NAME_LENGTH], int n)
         strcpy(temp, names[i]);
         strcpy(names[i], names[j]);
         strcpy(names[j], temp);
-        printf("%s ", names[i]);
+        // printf("%s ", names[i]);
     }
-
-    // for (int k = 0; k < n; k++)
-    // {
-    //     printf("%s ", names[k]);
-    // }
 }
